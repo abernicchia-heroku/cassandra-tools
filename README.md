@@ -11,7 +11,7 @@ Run Cassandra tools v4.1.4 on Heroku - it can be used to inspect Cassandra clust
 $ heroku run console -a <your heroku app name>
 
 # once your one-off dyno is running
-~ $ cd dsbulkXXXX-1.11.0/bin
+~ $ cd apache-cassandra-4.1.4/bin
 ~ $ ./dsbulk count -h <host> -u <user name> -p <user password> -k <keyspace> -t <table> 
 ~ $ ./dsbulk unload -h <host> -u <user name> -p <user password> -k <keyspace> -t <table>
 ~ $ ./dsbulk load -h <host> -u <user name> -p <user password> -k <keyspace> -t <table> 
