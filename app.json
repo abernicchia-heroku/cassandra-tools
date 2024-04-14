@@ -12,10 +12,10 @@
       "url": "https://github.com/peterkeen/heroku-buildpack-vendorbinaries"
     },
     {
-      "url": "heroku/jvm"
+      "url": "heroku/python"
     },
     {
-      "url": "heroku/python"
+      "url": "heroku/jvm"
     }  
   ]
 }
